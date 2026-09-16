@@ -1,16 +1,97 @@
-# React + Vite
+# معلم خصوصي
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+موقع تعليمي عربي لمدرسين متخصصين في القدرات والمواد العلمية، والقدرات اللفظية والكفايات اللغوية.
 
-Currently, two official plugins are available:
+تم تصميم الموقع ليكون بسيطًا وسهل الاستخدام، مع دعم كامل للغة العربية واتجاه RTL، وتجربة مناسبة للطلاب على مختلف الأجهزة.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* تصميم عربي بالكامل مع دعم RTL
+* Responsive Design لجميع أحجام الشاشات
+* عرض معلومات المدرسين وتخصصاتهم
+* عرض المواد والخدمات التعليمية
+* قسم لآراء الطلاب
+* صفحة للتواصل
+* تنقل بين صفحات الموقع باستخدام React Router
+* Mobile Bottom Navigation
+* مكونات React قابلة لإعادة الاستخدام
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Pages
 
-## Expanding the ESLint configuration
+* الرئيسية
+* عن المدرسين
+* المواد
+* آراء الطلاب
+* تواصل معنا
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Teachers
+
+### أحمد سيد
+
+* قدرات
+* مواد علمية
+
+### أحمد علي
+
+* قدرات لفظي
+* كفايات لغوية
+
+## Technologies
+
+* React
+* TypeScript
+* React Router
+* Tailwind CSS
+* Material Symbols
+* Vite
+
+## Project Structure
+
+```text
+src/
+├── assets/
+│   └── images/
+├── components/
+├── pages/
+│   ├── Home/
+│   ├── About/
+│   ├── Subjects/
+│   ├── Reviews/
+│   └── Contact/
+├── App.tsx
+└── main.tsx
+```
+
+## Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Deployment
+
+The project can be deployed using Vercel or other hosting services.
+
+## Purpose
+
+تم إنشاء المشروع كتطبيق عملي باستخدام React وTypeScript، مع التركيز على بناء واجهة عربية متجاوبة، وتنظيم المكونات، واستخدام React Router لإنشاء موقع تعليمي متعدد الصفحات.
